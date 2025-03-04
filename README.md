@@ -8,9 +8,21 @@ This is a simple Python script to check if websites are online and measure their
 - Handles **timeouts** and other connection errors.
 - Supports **multiple websites** in one command.
 
-## Installation
+## Installation & Usage
 
-### Clone the Repository
+### Step 1: Install Dependencies
 ```bash
-git clone https://github.com/your-username/website-checker.git
-cd website-checker
+
+pip install requests
+
+If you enter a URL without http:// or https://, the script automatically adds https:// to ensure proper connectivity.
+
+Future Improvements
+Save results to a log file.
+Check websites at regular intervals.
+Send email or Slack notifications for downtime alerts.
+Requirements
+Python 3.x
+requests library (pip install requests)
+License
+This project is licensed under the MIT License. 
